@@ -1,4 +1,5 @@
 
+/* ismayil */
 .container {
     width: 100%;
     height: 100%;
@@ -212,6 +213,101 @@
     font-size: 24px;
     font-weight: 400;
 }
+
+/* ismayil */
+
+/* emrah */
+/* fifth-part */
+.fifth-part {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.fifth-part .first-section {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.fifth-part .second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.fifth-part .second-section .card {
+    width: 400px;
+    height: 328px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+}
+
+.fifth-part .second-section .card .card-first-text {
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.fifth-part .second-section .card .card-second-text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* sixth-part */
+.sixth-part {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 10px;
+}
+
+.sixth-part .first-section {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.sixth-part .second-section {
+    width: fit-content;
+}
+
+.sixth-part .second-section .sixth-part-card {
+    /* width: 700px; */
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sixth-part .second-section .sixth-part-card .card-one-text p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sixth-part-card .profil {
+    display: flex;
+    gap: 20px;
+}
+
+.profil .profil-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.profil .profil-text p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.profil .profil-text img {
+    width: 30px;
+    height: 30px;
+}
+/* emrah */
 
 
 
