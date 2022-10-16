@@ -18,7 +18,7 @@
 .first-part {
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding:0px 60px ;
     gap: 10px;
 }
 
@@ -76,6 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .first-part .third-section .aphorism {
@@ -83,7 +84,8 @@
     height: 200px;
     background: #1E4681;
     border-radius: 10px;
-    padding: 25px;
+    padding: 28px;
+    
     position: relative;
 }
 
@@ -108,7 +110,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 60px;
+    padding:0px 60px ;
 }
 
 .second-part .first-section {
@@ -159,7 +161,7 @@
 .third-part {
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding:0px 60px ;
 
 }
 
@@ -201,7 +203,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 60px;
+    padding:0px 60px ;
 }
 
 .fourth-part .first-section {
@@ -221,7 +223,7 @@
 .fifth-part {
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding:0px 60px ;
 }
 
 .fifth-part .first-section {
@@ -233,11 +235,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 10px;
+    gap: 30px;
 }
 
 .fifth-part .second-section .card {
-    width: 400px;
+    width: 399px;
     height: 328px;
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
@@ -248,19 +250,22 @@
 .fifth-part .second-section .card .card-first-text {
     font-size: 29px;
     font-weight: 700;
+    padding-left: 25px;
 }
 
 .fifth-part .second-section .card .card-second-text {
     font-size: 22px;
     font-weight: 400;
+    padding-left: 25px;
 }
 
 /* sixth-part */
 .sixth-part {
     display: flex;
     flex-direction: column;
-    padding-left: 60px;
+    padding:0px 60px 0px 60px ;
     gap: 10px;
+    background: #EFEFEF;
 }
 
 .sixth-part .first-section {
@@ -307,16 +312,7 @@
     width: 30px;
     height: 30px;
 }
-
 /* emrah */
-
-
-
-
-
-
-
-
 
 
 @media (max-width:650px) {
@@ -332,6 +328,9 @@
         display: flex;
         flex-direction: column;
         
+    }
+    .sixth-part{
+        align-items: center;
     }
 
 }
